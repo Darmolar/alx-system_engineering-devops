@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Enter the word: " user_input
+
+reversed_input=$(echo "$user_input" | rev)
+
+echo "Reversed input: $reversed_input"
